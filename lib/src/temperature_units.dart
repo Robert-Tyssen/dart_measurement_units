@@ -6,7 +6,6 @@ const temperatureKelvin = Unit(
   offset: 273.15,
 );
 const temperatureCelsius = Unit(dimension: Dimension.temperature);
-
 const temperatureFahrenheit = Unit(
   dimension: Dimension.temperature,
   multiplier: 9.0 / 5.0,
